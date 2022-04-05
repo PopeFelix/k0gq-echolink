@@ -518,7 +518,7 @@ proc config_updated {tag value} {
 #
 proc remote_greeting {call} {
   playSilence 1000;
-  playMsg "greeting";
+  #playMsg "greeting";
 }
 
 
